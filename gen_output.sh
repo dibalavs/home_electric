@@ -26,11 +26,10 @@ else
 fi
 
 pandoc --output ${output} \
---from markdown+link_attributes+pipe_tables+grid_tables \
+--from markdown+link_attributes+pipe_tables \
 --to html \
 ${engine_flags} \
 --standalone \
---number-sections \
 --toc \
 --metadata-file=${metadata} \
 --template ${template} \

@@ -6,7 +6,7 @@
         {
             "label": "WSL build pdf",
             "type": "shell",
-            "command": "./gen_output.sh",
+            "command": "gen_output.cmd",
             "problemMatcher": [],
             "args": [],
             "group": {
@@ -17,7 +17,7 @@
         {
             "label": "WSL build html",
             "type": "shell",
-            "command": "./gen_output.sh",
+            "command": "gen_output.cmd",
             "args": ["html"],
             "problemMatcher": [],
             "group": {
