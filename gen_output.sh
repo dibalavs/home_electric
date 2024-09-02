@@ -26,7 +26,7 @@ else
 fi
 
 pandoc --output ${output} \
---from markdown+link_attributes+pipe_tables \
+--from markdown+link_attributes+pipe_tables+fenced_divs \
 --to html \
 ${engine_flags} \
 --standalone \
